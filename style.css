@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+    background:white;
+    font-family: sans-serif;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for mobile devices */
+    /* Example: Adjusting layout for smaller screens */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+ 
+
+.continer{
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+     display: flex;
+    margin: 95px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 20px 0px;
+    margin: 0px 0px;
+    border-radius: 20px;
+    background:  linear-gradient(360deg, rgba(88,17,187,1) 0%, rgba(94,1,252,1) 0%);
+}
+.container2{
+    width:100%;
+    height: 100%;
+    background:white;
+    box-shadow: 10px 10px 20px rgba(135, 207, 235, 0.384);
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px 20px;
+    
+    
+}
+
+.container1 .h2-1{
+    width: 100%;
+    text-align: center;
+    color: rgb(193, 166, 243);
+    display: inline-block;
+    padding: 0px 0px;
+}
+
+.box-1{
+    width: 100%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: linear-gradient(360deg, rgba(94,1,252,1) 6%, rgba(88,17,187,1) 85%);
+    border-radius: 150px;
+    padding: 40px 0px;
+    margin: 20px 100px;
+    display: inline-block;
+}
+
+.box-1 h1{
+    font-size: 50px;
+    color: white;
+    margin: 5px 0px;
+    transform: uppercase;
+    
+}
+.box-1 p{
+    font-size: 20px;
+    color: rgb(193, 166, 243);
+    
+    margin: 0px 0px;
+    
+}
+
+.h2-2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.p-2{
+    text-align: center;
+    color: rgb(193, 166, 243);
+    padding: 0px 79px;
+}
+
+.Summary-list{
+    display: flex;
+    border: 1px solid;
+    padding: 10px 0px;
+    font-weight: bold;
+    background:  rgba(209, 19, 19, 0.11);
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.Summary-list img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px ;
+}
+
+.Summary-list p ,span{
+    
+    font-size: 15px;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 10px;
+    color: rgba(209, 19, 19, 0.623);
+    
+}
+
+.Summary-list p span{
+    display: inline-block;
+    text-align: right;
+    color: black;
+    padding: 0px 0px 0px 140px ;
+}
+.box2{
+    display: flex;
+    border: 1px solid;
+    padding: 10px 5px;
+    font-weight: bold;
+    background:  rgba(209, 196, 19, 0.11);
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.Summary-list img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px ;
+}
+
+.box2-2{
+    
+    font-size: 15px;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 10px;
+    color: rgb(206, 209, 19);
+    
+}
+
+ .box2-2 span{
+    display: inline-block;
+    padding: 0px 0px 0px 140px;
+    color: black;
+}
+
+
+.box3{
+    display: flex;
+    border: 1px solid;
+    padding: 10px 5px;
+    font-weight: bold;
+    background:  rgba(89, 209, 19, 0.11);
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.Summary-list img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px ;
+}
+
+.box3-2{
+    
+    font-size: 15px;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 10px;
+    color: rgb(19, 209, 29);
+    
+}
+
+
+.box3-2 span{
+    
+    padding: 0px 0px 0px 160px;
+    color: black;
+}
+.box4{
+    display: flex;
+    border: 1px solid;
+    padding: 10px 5px;
+    font-weight: bold;
+    background:  rgba(19, 63, 209, 0.11);
+    border: 0;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.Summary-list img{
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px 0px 0px 5px ;
+}
+
+.box4-2{
+    
+    font-size: 15px;
+    margin: 5px 0px;
+    padding: 0px 0px 0px 10px;
+    color: rgb(19, 22, 209);
+    
+}
+
+
+
+.box4 span{
+    display: inline-block;
+    padding: 0px 0px 0px 160px;
+    color: rgb(41, 33, 33);
+}
+
+ .btn button{
+    background: rgba(34, 32, 32, 0.966);
+    color: white;
+    font-size: 15px;
+    padding: 10px 90px;
+    margin: 25px 35px;
+    border:0;
+    border-radius: 20px;
+    text-align: center;
+}
